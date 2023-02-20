@@ -1,0 +1,42 @@
+{
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "-c",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"// #define int long long",
+			"typedef long long LL;",
+			"typedef unsigned long long ULL;",
+			"inline int read() {",
+			"    int res = 0, f = 1;",
+			"    char c = getchar();",
+			"    while (!isdigit(c)) {",
+			"        if (c == '-') f = 0;",
+			"        c = getchar();",
+			"    }",
+			"    while (isdigit(c))",
+			"        res = (res << 3) + (res << 1) + c - 48, c = getchar();",
+			"    return f ? res : -res;",
+			"}",
+			"const double eps = 1e-8;",
+			"const int INF = 0x3f3f3f3f;",
+			"const int N = 1e6 + 10;",
+			"",
+			"void solve() {",
+			"    // solve",
+			"}",
+			"",
+			"signed main() {",
+			"    int t = 1;",
+			"    t = read();",
+			"",
+			"    for (int i = 1; i <= t; i++) {",
+			"        // printf(\"Case %d:\\n\", i);",
+			"        solve();",
+			"    }",
+			"    return 0;",
+			"}"
+		],
+		"description": "C style"
+	}
+}
