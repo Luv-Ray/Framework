@@ -11,7 +11,7 @@
                 "_UNICODE"
             ],
             "intelliSenseMode": "windows-gcc-x64",
-            "compilerPath": "E:\\Programming\\MinGW\\bin\\g++.exe"
+            "compilerPath": "E:\\Program\\Compiler\\MinGW64\\bin\\g++.exe"
         }
     ],
     "version": 4
