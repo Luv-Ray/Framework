@@ -1,2 +1,4 @@
 *.exe
 tasks.json
+*.cpp
+*c_cpp_properties.json
